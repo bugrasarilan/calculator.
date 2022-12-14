@@ -26,7 +26,6 @@ button:hover {
   height: 2em;
   width: 4.5em;
 }
-
 .write {
   color: white;
   display: flex;
@@ -48,7 +47,6 @@ button:hover {
   z-index: 10px;
   width: auto;
 }
-
 .up {
   background-color: rgb(160, 160, 160);
 }
@@ -56,8 +54,6 @@ button:hover {
   background-color: rgb(246, 153, 9);
   display: flex;
   margin-left: 175px;
-}
-.processcontainer {
 }
 .process:hover {
   background-color: white;
