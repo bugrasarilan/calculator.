@@ -1,5 +1,5 @@
 import React from "react";
-// import { useState } from "react";
+
 
 function Number({ number, setNumber }) {
   function inputNumber(e) {
@@ -22,7 +22,6 @@ function Number({ number, setNumber }) {
       <button className="number" onClick={inputNumber} value={9}>
         9
       </button>
-
       <button className="number" onClick={inputNumber} value={4}>
         4
       </button>
@@ -32,7 +31,6 @@ function Number({ number, setNumber }) {
       <button className="number" onClick={inputNumber} value={6}>
         6
       </button>
-
       <button className="number" onClick={inputNumber} value={1}>
         1
       </button>
@@ -42,7 +40,6 @@ function Number({ number, setNumber }) {
       <button className="number" onClick={inputNumber} value={3}>
         3
       </button>
-
       <button className="number" onClick={inputNumber} value={0} id="zero">
         0
       </button>
