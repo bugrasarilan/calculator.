@@ -39,11 +39,14 @@ button:hover {
   color: rgb(249, 249, 249);
   background-color: rgb(49, 49, 49);
   align-items: center;
-  padding-right: 7px;
+  
 }
 .up {
   background-color: rgb(160, 160, 160);
-padding-right: 7px;
+}
+.upcont{
+  display: block;
+  align-items: center;
 }
 .process {
   background-color: rgb(246, 153, 9);
