@@ -39,6 +39,8 @@ button:hover {
   color: rgb(249, 249, 249);
   background-color: rgb(49, 49, 49);
   align-items: center;
+  margin: 6px 6px;
+  padding: 0px;
   
 }
 .up {
@@ -62,7 +64,7 @@ button:hover {
 }
 .processcontainer{
  position: absolute;
-  top: 164px;
+  top: 155px;
   z-index: 2;
   margin-left: 170px;
   align-items: center;
