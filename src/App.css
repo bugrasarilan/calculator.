@@ -38,9 +38,11 @@ button:hover {
 .number {
   color: rgb(249, 249, 249);
   background-color: rgb(49, 49, 49);
+  align-items: center;
 }
 .up {
   background-color: rgb(160, 160, 160);
+  align-items: center;
 }
 .process {
   background-color: rgb(246, 153, 9);
@@ -48,12 +50,14 @@ button:hover {
   grid-template-columns: 60px ;
   grid-template-rows: 40px;
   margin-top: 10px;
+  align-items: center;
 }
 .processcontainer{
  position: absolute;
   top: 164px;
   z-index: 2;
   margin-left: 170px;
+  align-items: center;
 }
 .process:hover {
   background-color: white;
