@@ -1,6 +1,6 @@
 import React from "react";
 
-function Operator({ number, setNumber }) {
+function Operator({number, setNumber }) {
   function clear() {
     setNumber(0);
   }

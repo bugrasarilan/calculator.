@@ -39,21 +39,21 @@ button:hover {
   color: rgb(249, 249, 249);
   background-color: rgb(49, 49, 49);
 }
-.numbercontainer {
-  position: absolute;
-  display: grid;
-  grid-template-columns: 60px 60px 60px;
-  grid-template-rows: 40px, 400px;
-  z-index: 10px;
-  width: auto;
-}
 .up {
   background-color: rgb(160, 160, 160);
 }
 .process {
   background-color: rgb(246, 153, 9);
-  display: flex;
-  margin-left: 175px;
+  display: grid;
+  grid-template-columns: 60px ;
+  grid-template-rows: 40px;
+  margin-top: 10px;
+}
+.processcontainer{
+ position: absolute;
+  top: 164px;
+  z-index: 2;
+  margin-left: 170px;
 }
 .process:hover {
   background-color: white;

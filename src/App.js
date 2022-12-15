@@ -11,15 +11,14 @@ function App() {
 
   return (
     <div className="container">
-      <Operator number={number} setNumber={setNumber} />
+      <Operator 
+      number={number}
+       setNumber={setNumber}
+       />
       <Number
-        number={number}
-        setNumber={setNumber}
-        beforenumber={beforenumber}
-        setBeforenumber={setBeforenumber}
-        output={output}
-        setOutput={setOutput}
-      />
+       number={number} 
+       setNumber={setNumber}
+       />
       <Process
         number={number}
         setNumber={setNumber}
@@ -31,5 +30,4 @@ function App() {
     </div>
   );
 }
-
 export default App;
