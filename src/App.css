@@ -43,10 +43,14 @@ button:hover {
 }
 .up {
   background-color: rgb(160, 160, 160);
+  margin: 0px 6px;
+  padding: 0px;
+  
 }
 .upcont{
-  display: block;
-  align-items: center;
+
+ align-self: center;
+ 
 }
 .process {
   background-color: rgb(246, 153, 9);
