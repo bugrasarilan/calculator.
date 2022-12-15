@@ -15,6 +15,7 @@ function Process({
     setNumber(0);
   };
   const calculate = () => {
+    
     if (output === "/") {
       setNumber(beforenumber / number);
     } else if (output === "*") {

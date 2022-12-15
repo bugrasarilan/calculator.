@@ -10,9 +10,11 @@ function Operator({number, setNumber }) {
   const percentage = () => {
     setNumber(number / 100);
   };
-
+   if (number.toString().length > 8) {
+     number = number.toString().slice(0, 8);
+   }
   return (
-    <div>
+    <div> 
       <h2 className="write"> {number} </h2>
       <button className="up" onClick={clear}>
         AC

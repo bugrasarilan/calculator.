@@ -1,16 +1,18 @@
 import React from "react";
 
 function Number({ number, setNumber }) {
+
   function InputNumber(e) {
-    const input = e.target.value;
+  
+    const input = e.target.value;   
     if (number === 0) {
       setNumber(input);
     } else {
       setNumber(number + input);
     }
-  }
-
+  }  
   return (
+
     <div className="numbercontainer">
       <button className="number" onClick={InputNumber} value={7}>
         7
@@ -45,7 +47,7 @@ function Number({ number, setNumber }) {
       <button className="number" onClick={InputNumber} value={"."}>
         ,
       </button>
-    </div>
+    </div> 
   );
 }
 
