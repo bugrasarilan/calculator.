@@ -41,18 +41,11 @@ button:hover {
   align-items: center;
   margin: 6px 6px;
   padding: 0px;
-  
 }
 .up {
   background-color: rgb(160, 160, 160);
   margin: 0px 6px;
   padding: 0px;
-  
-}
-.upcont{
-
- align-self: center;
- 
 }
 .process {
   background-color: rgb(246, 153, 9);
@@ -64,7 +57,7 @@ button:hover {
 }
 .processcontainer{
  position: absolute;
-  top: 155px;
+  top: 156px;
   z-index: 2;
   margin-left: 170px;
   align-items: center;

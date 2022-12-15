@@ -12,7 +12,7 @@ function Operator({number, setNumber }) {
   };
 
   return (
-    <div className="upcont">
+    <div>
       <h2 className="write"> {number} </h2>
       <button className="up" onClick={clear}>
         AC
