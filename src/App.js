@@ -8,11 +8,6 @@ function App() {
   const [number, setNumber] = useState(0);
   const [beforenumber, setBeforenumber] = useState(0);
   const [output, setOutput] = useState();
-
-  // if (number.toString().length > 9) {
-  //   number = number.toString().slice(0, 9);
-  // }
-
   return (
     <div className="container">
       <Operator 
